@@ -185,8 +185,8 @@ class iOpenerPathInput():
 
         # Path doesn't exist, ask the user if they want to create it.
         if not isdir(directory):
-            create = sublime.ok_cancel_dialog("The path you entered does not exist, create it?",
-                                              "Yes")
+            # create = sublime.ok_cancel_dialog("The path you entered does not exist, create it?",
+            #                                   "Yes")
             create = True
             if not create:
                 return
